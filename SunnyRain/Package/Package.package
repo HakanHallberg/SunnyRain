@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="e0437ba3-7192-4465-915f-3cd2d7d7e5e4" 
+        solutionId="e0437ba3-7192-4465-915f-3cd2d7d7e5e4" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SunnyRain"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="1d317e5b-9baf-4c32-8c20-d9e96eabda2a" />
+  </features>
+</package>
