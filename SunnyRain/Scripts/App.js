@@ -17,7 +17,7 @@ $(document).ready(function () {
             $('#location').html(data.timezone);
             $('#icon').html(data.currently.icon);
 
-             //new code. Erease if problem
+            //new code. Erease if problem
             var icons = new Skycons(),
                 list = [
                     "clear-day", "clear-night", "partly-cloudy-day",
@@ -26,7 +26,8 @@ $(document).ready(function () {
                 ],
                 i;
             for (i = list.length; i--;)
-                icons.set(list[i], list[i]);
+                icons.set("icon", list[i]);
+
             icons.play();
         },
 
