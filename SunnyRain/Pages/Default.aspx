@@ -31,12 +31,15 @@
     <div class="weatherWrapper">
 	<h1></h1>
 	<div class="weatherTop">
-		<span id="currentTemp"></span>
+		<span id="location"></span>
         <figure>
+             
             <canvas id="icon"></canvas>
+           
         </figure>
-        <span id="summaryToday"></span>
-        <span id="location"></span>
+         <span id="currentTemp"></span> <br />
+            <span id="summaryToday"></span>
+        
 	</div>
 </div>
 
