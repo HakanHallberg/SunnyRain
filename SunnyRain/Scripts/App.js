@@ -26,7 +26,10 @@ $(document).ready(function () {
                 ],
                 i;
             for (i = list.length; i--;)
+            {
                 icons.set("icon", list[i]);
+            }
+                
 
             icons.play();
         },
