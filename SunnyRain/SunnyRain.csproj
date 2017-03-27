@@ -46,15 +46,23 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2b0a9375-229b-4192-a326-30f19124a7c6}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\AppPart.css" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Pages\Sunny Rain\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d70abfc-47f8-451e-b1cd-59cf8cae94e6}</SharePointProjectItemId>
+    </None>
     <None Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Scripts\jquery-3.1.1.slim.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{28890c79-0747-4551-91d4-00ae63d88b36}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\Sunny Rain\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="Pages\Sunny_Rain.aspx" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-3.1.1.intellisense.js" />
