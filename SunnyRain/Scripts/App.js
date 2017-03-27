@@ -29,7 +29,13 @@ $(document).ready(function () {
             {
                 icons.set("icon", list[i]);
             }
-                
+
+            var str = data.timezone;
+            str = str.replace(str.substring(0, str.indexOf('/')+1),"");
+            document.getElementById("location").innerHTML = str;   
+
+
+            
 
             icons.play();
         },
