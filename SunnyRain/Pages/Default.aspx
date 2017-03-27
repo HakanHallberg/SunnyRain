@@ -39,7 +39,8 @@
         </figure>
          <span id="currentTemp"></span> <br />
             <span id="summaryToday"></span>
-        
+            
+            <div id="testDiv"></div>
 	</div>
 </div>
 
