@@ -15,15 +15,18 @@ p {
 }
 
 figure {
-    margin: 1em auto;
-    height: 152px;
+    margin: 3em auto;
+    width: 187px;
+    height: 15px;
 }
 
 canvas {
     display: block;
     float: left;
-    margin-top: 8px;
-   
+    margin-left: 8px;
+    margin-top: -33px;
+    width: 155px;
+    margin-left: 2px;
 }
 
 pre {
@@ -38,14 +41,13 @@ pre {
         a:visited, pre span.constant {
             color: indianred;
         }
+
 #currentTemp, #summaryToday, #location {
-    font-size: 25px;
+    font-size: 18px;
+    margin-top: -17px;
+    margin-left: -13px;
 }
 
 .weatherTop {
-    
-}
-
-#icon {
-    
+    text-align: center;
 }
