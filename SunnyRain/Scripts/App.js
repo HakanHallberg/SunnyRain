@@ -3,8 +3,8 @@ $(document).ready(function () {
     var url = 'https://api.darksky.net/forecast/';
     var apiKey = '14d84336ffc9fd091dbec78223badbba';
     var unit = 'si';
-    var lati = 59.264862;
-    var longi = 18.142460;
+    var lati = 67.855800;
+    var longi = 20.225282;
 
     jQuery.ajax({
         url: url + apiKey + "/" + lati + "," + longi + "?callback=?&units=" + unit,
