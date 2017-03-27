@@ -1,7 +1,7 @@
 ﻿'use strict';
 $(document).ready(function () {
     var url = 'https://api.darksky.net/forecast/';
-    var apiKey = '14d84336ffc9fd091dbec78223badbba';
+    var apiKey = getQueryStringParameter('MyApiKey');
     var unit = 'si';
     var lati = 59.200403;
     var longi = 18.196405;
